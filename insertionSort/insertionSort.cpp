@@ -85,6 +85,13 @@ void display()
 }
 
 
+int main()
+{
+    input();        //memangil input
+
+}
+
+
 
 
 
