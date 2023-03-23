@@ -88,6 +88,7 @@ void display()
 int main()
 {
     input();        //memangil input
+    insertionsort();        //memanggil insertationsort
 
 }
 
