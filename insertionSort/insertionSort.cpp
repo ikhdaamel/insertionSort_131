@@ -1,9 +1,39 @@
 #include <iostream>
 using namespace std;
 
-int arr[20];        //membuat array dengan panjang dat a20
+int arr[20];        //membuat array dengan panjang data 20
 int n;              //membuat variabel inputan n
 
+void input()
+{   //procedure input
+    while (true)
+    {
+        cout << "masukan jumalah data pada array : ";      //membuat inputan jumlah elemen array
+        cin >> n;                                          //memangil variabel inputan n
+
+        if (n <= 20)
+        {   //membuat kondisi n tidak lebih dari 20
+            break;
+
+        }
+        else
+        {
+            cout << "\nArray yang anda masukan maksimal 20 elemen. \n";     //menampilkan pesan jika data lebih dari 20
+        }
+    }
+    cout << endl;                                     //membuat jarak per baris progam
+    cout << "========================" << endl;       //membuat tampilan susunan data elemen array
+    cout << "masukan elemen array" << endl;
+    cout << "========================" << endl;
+
+    //menggunakan perulangan for untuk menyimpan data pada array
+    for (int i = 0; i < n; i++)
+    {
+        cout << "data ke-" << (i + 1) << ": ";      //masukan atau menginputkan nilai data n
+        cin >> arr[i];                              //masukan nilai data n kedalam Array arr
+
+    }
+};
 
 
 
