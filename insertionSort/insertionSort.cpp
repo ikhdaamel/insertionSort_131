@@ -68,6 +68,12 @@ void insertionsort()
 
 };
 
+void display()
+{
+    cout << endl;                           //output baris kosong
+
+}
+
 
 
 
