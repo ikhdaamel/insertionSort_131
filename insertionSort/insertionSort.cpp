@@ -71,7 +71,8 @@ void insertionsort()
 void display()
 {
     cout << endl;                           //output baris kosong
-
+    cout << "total element movement " << n - 1 << endl;        //cout movement element
+    cout << "\n=====================" << endl;      //output ke layar
 }
 
 
